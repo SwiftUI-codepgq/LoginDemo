@@ -25,9 +25,10 @@ struct ContentView: View {
                         Text("使用手机号验证码登录")
                 }
             }
-                
+
             .navigationBarTitle(Text("登录Demo"), displayMode: .large)
         }
+        
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60220FDF242EF600001FBBF7 /* PQTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60220FDE242EF600001FBBF7 /* PQTextField.swift */; };
+		60220FE1242EFD49001FBBF7 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60220FE0242EFD49001FBBF7 /* DismissKeyboard.swift */; };
 		60311B4C242E301100E07196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60311B4B242E301100E07196 /* AppDelegate.swift */; };
 		60311B4E242E301100E07196 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60311B4D242E301100E07196 /* SceneDelegate.swift */; };
 		60311B50242E301100E07196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60311B4F242E301100E07196 /* ContentView.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60220FDE242EF600001FBBF7 /* PQTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PQTextField.swift; sourceTree = "<group>"; };
+		60220FE0242EFD49001FBBF7 /* DismissKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
 		60311B48242E301100E07196 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60311B4B242E301100E07196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60311B4D242E301100E07196 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				60311B4F242E301100E07196 /* ContentView.swift */,
 				60311B7D242E385300E07196 /* LoginAccountView.swift */,
 				60311B7F242E386100E07196 /* LoginPhoneView.swift */,
+				60220FDE242EF600001FBBF7 /* PQTextField.swift */,
+				60220FE0242EFD49001FBBF7 /* DismissKeyboard.swift */,
 				60311B51242E301300E07196 /* Assets.xcassets */,
 				60311B56242E301300E07196 /* LaunchScreen.storyboard */,
 				60311B59242E301300E07196 /* Info.plist */,
@@ -273,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60220FDF242EF600001FBBF7 /* PQTextField.swift in Sources */,
 				60311B80242E386100E07196 /* LoginPhoneView.swift in Sources */,
 				60311B4C242E301100E07196 /* AppDelegate.swift in Sources */,
 				60311B4E242E301100E07196 /* SceneDelegate.swift in Sources */,
+				60220FE1242EFD49001FBBF7 /* DismissKeyboard.swift in Sources */,
 				60311B7E242E385300E07196 /* LoginAccountView.swift in Sources */,
 				60311B50242E301100E07196 /* ContentView.swift in Sources */,
 			);
